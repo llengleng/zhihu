@@ -15,7 +15,7 @@ public interface ColumnMapper {
      */
     @Select(" SELECT id,title,description,url,image_url,followers,articles_count FROM t_columns ")
     @Results({
-            @Result(id = true,property = "id",column = "id",javaType = Integer.class),
+            @Result(id = true,property = "id",column = "id",javaType = Long.class),
             @Result(property = "title",column = "title",jdbcType = JdbcType.VARCHAR,javaType = String.class),
             @Result(property = "description",column = "description",jdbcType = JdbcType.VARCHAR,javaType = String.class),
             @Result(property = "url",column = "url",jdbcType = JdbcType.VARCHAR,javaType = String.class),
@@ -30,7 +30,7 @@ public interface ColumnMapper {
      */
     @Select("SELECT id,title,description,url,image_url,followers,articles_count FROM t_columns ORDER BY followers DESC LIMIT 0,4")
     @Results({
-            @Result(id = true,property = "id",column = "id",javaType = Integer.class),
+            @Result(id = true,property = "id",column = "id",javaType = Long.class),
             @Result(property = "title",column = "title",jdbcType = JdbcType.VARCHAR,javaType = String.class),
             @Result(property = "description",column = "description",jdbcType = JdbcType.VARCHAR,javaType = String.class),
             @Result(property = "url",column = "url",jdbcType = JdbcType.VARCHAR,javaType = String.class),
