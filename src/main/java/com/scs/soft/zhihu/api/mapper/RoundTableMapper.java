@@ -12,11 +12,7 @@ import java.sql.Date;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author mq_xu
- * @description TODO
- * @create 2020/1/14
- */
+
 public interface RoundTableMapper {
     /**
      * 查询所有圆桌讨论

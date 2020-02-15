@@ -10,11 +10,7 @@ import org.springframework.web.filter.CorsFilter;
 import java.util.Arrays;
 import java.util.List;
 
-/**
- * @author mq_xu
- * @description SwaggerConfig
- * @create 2020/1/7
- */
+
 @Configuration
 public class CorsConfig {
     @Bean

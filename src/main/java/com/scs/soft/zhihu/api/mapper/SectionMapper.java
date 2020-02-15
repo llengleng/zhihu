@@ -8,10 +8,6 @@ import org.apache.ibatis.annotations.Select;
 
 import java.util.List;
 
-/**
- * @author ABC
- * @date 2020/1/16 12:33
- */
 public interface SectionMapper {
     @Insert("<script>"+
             "INSERT INTO t_section (section_id ,section_title) VALUES"+

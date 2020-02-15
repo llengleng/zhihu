@@ -10,10 +10,6 @@ import javax.annotation.Resource;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author ABC
- * @date 2020/1/16 10:45
- */
 @Service
 public class SpecialServiceImpl implements SpecialService {
     @Resource

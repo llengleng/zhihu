@@ -8,10 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.annotation.Resource;
 
-/**
- * @author ABC
- * @date 2020/1/16 16:57
- */
+
 @RestController
 @RequestMapping(value ="/api/special")
 public class SpecialController {

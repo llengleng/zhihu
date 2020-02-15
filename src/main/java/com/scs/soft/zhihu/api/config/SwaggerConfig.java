@@ -12,11 +12,6 @@ import springfox.documentation.spi.DocumentationType;
 import springfox.documentation.spring.web.plugins.Docket;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
-/**
- * @author mq_xu
- * @description SwaggerConfig
- * @create 2020/1/7
- */
 @Configuration
 @EnableSwagger2
 @EnableSwaggerBootstrapUI

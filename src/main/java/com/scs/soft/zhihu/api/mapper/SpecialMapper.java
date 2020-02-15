@@ -6,10 +6,7 @@ import java.sql.Date;
 import java.util.List;
 import java.util.Map;
 
-/**
- * @author ABC
- * @date 2020/1/16 12:34
- */
+
 public interface SpecialMapper {
     /**
      * 批量增加
