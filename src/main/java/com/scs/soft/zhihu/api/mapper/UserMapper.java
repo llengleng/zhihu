@@ -11,7 +11,7 @@ public interface UserMapper {
     @Select("Select id,mobile,email,password,name,url_token,avatar_url,url,headline," +
             "description,user_cover,created")
     @Results({
-            @Result(id = true,property = "id",javaType = String.class),
+            @Result(id = true,property = "id",column = "id",javaType = String.class),
             @Result(property = "mobile",column = "mobile",javaType = Long.class),
             @Result(property = "email",column = "email",javaType = Long.class),
             @Result(property = "password",column = "password",javaType = Long.class),
@@ -29,7 +29,7 @@ public interface UserMapper {
     @Select("Select id,mobile,email,password,name,url_token,avatar_url,url,headline," +
             "description,user_cover,created order by created DESC limit 0,4")
     @Results({
-            @Result(id = true,property = "id",javaType = String.class),
+            @Result(id = true,property = "id",column = "id",javaType = String.class),
             @Result(property = "mobile",column = "mobile",javaType = Long.class),
             @Result(property = "email",column = "email",javaType = Long.class),
             @Result(property = "password",column = "password",javaType = Long.class),
