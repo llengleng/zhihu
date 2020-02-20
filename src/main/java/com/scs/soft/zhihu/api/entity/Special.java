@@ -5,6 +5,7 @@ import lombok.Data;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.util.List;
 
 
 @Data
@@ -17,6 +18,15 @@ public class Special implements Serializable  {
     private Integer viewCount;
     private Integer followersCount;
     private Date updated;
+    private List<Section> sections;
+
+    public List<Section> getSections() {
+        return sections;
+    }
+
+    public void setSections(List<Section> sections) {
+        this.sections = sections;
+    }
 
     public String getSpecialId() {
         return specialId;

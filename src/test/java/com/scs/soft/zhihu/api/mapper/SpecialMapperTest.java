@@ -28,7 +28,7 @@ class SpecialMapperTest {
     }
     @Test
     void selectRecent(){
-        List<Special> specials = specialMapper.selectRecent();
+        List<Map> specials = specialMapper.selectRecent();
         specials.forEach(System.out::println);
     }
 }

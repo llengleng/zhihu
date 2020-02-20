@@ -15,5 +15,5 @@ public interface SpecialService {
     /**
      * 查询最新专题
      */
-    List<Special> selectRecent();
+    List<Map> selectRecent();
 }

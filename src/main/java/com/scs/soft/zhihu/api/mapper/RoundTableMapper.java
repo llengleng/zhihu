@@ -18,7 +18,7 @@ public interface RoundTableMapper {
      * 查询所有圆桌讨论
      * @return
      */
-    @Select(" SELECT * FROM t_round_table ")
+    @Select(" SELECT id,name,banner,url_token,visits_count,include_count FROM t_round_table ")
     List<RoundTable> getAllRoundTable();
 
     /**

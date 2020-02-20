@@ -21,7 +21,7 @@ public class SpecialServiceImpl implements SpecialService {
     }
 
     @Override
-    public List<Special> selectRecent() {
+    public List<Map> selectRecent() {
         return specialMapper.selectRecent();
     }
 }
